@@ -1,3 +1,5 @@
 # MUSIC PLAYER
-This is a web music player. 
-It is created by HTML5 and CSS3
+ 
+<p>This is a web music player !</p>
+<p>It is developed by HTML and CSS.</p>
+
