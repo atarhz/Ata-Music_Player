@@ -3,40 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <title>ata player</title>
+    <link rel="stylesheet" href="Style.css">
 </head>
-<body style="background-color: black">
+<body class="body">
 <div>
-    <div style="background-color:#303030; width: 50vw; margin-top: 20px; margin-left: auto;margin-right: auto;border-radius: 20px">
-        <div style="display: flex; justify-content: space-around; padding-top: 30px">
-            <button style="background-color: #303030; border-bottom-color: #ffe066;margin-right:300px;border-left-color:#303030;border-top-color: #303030;border-right-color: transparent ">
-                <img src="round_arrow_back_black_48dp.png" alt="back" style="margin-right: auto">
+    <div class="playerDiv">
+        <div class="topButtonDiv">
+            <button class="backButton">
+                <img src="icons/round_arrow_back_black_48dp.png" alt="back" class="imgTop">
             </button>
-            <button style="background-color:#303030; border-bottom-color: #ffe066 ;border-left-color:#303030;border-top-color:#303030;border-right-color: transparent ">
-                <img src="outline_playlist_play_black_48dp.png" alt="play list" style="margin-left: auto;">
+            <button class="playListButton">
+                <img src="icons/outline_playlist_play_black_48dp.png" alt="play list" class="imgTop">
             </button>
         </div>
-        <div style="text-align: center">
-            <img SRC="IMG_0317%20(2).PNG" alt="music" style="width:125px;height:auto; padding-top: 60px">
-            <p style="color: #ffe066; font-family: 'Berlin Sans FB Demi';font-weight: bold;font-style: italic"> I want more </p>
-            <p style="color: #ffe066; font-family: 'Berlin Sans FB Demi';"> Vikings </p>
-            <div style="display: flex; justify-content:space-evenly;">
-                <p style="color: #ffe066; margin-right: 100px;">1:20</p>
-                <p style="color: #ffe066; margin-left: 25px;">3:02</p>
+        <div class="mainDiv">
+            <img src="icons/IMG_0317%20(2).PNG" alt="music" class="image">
+            <p class="musicName"> I want more </p>
+            <p class="singer"> Vikings </p>
+            <div class="divMusicLine">
+                <p class="startMusic">1:20</p>
+                <p class="endMusic">3:02</p>
             </div>
             <div>
-                <hr style="width: 300px; height: 3px;border-color:black;background-color: #ffe066">
+                <hr class="line">
             </div>
-
         </div>
-        <div style="display: flex; justify-content: space-around; margin-top: 180px;padding-bottom: 50px">
-            <button style="background-color:#303030; border-color: transparent;border-bottom-color:#ffe066 ;border-radius:40px">
-                <img src="outline_fast_rewind_black_48dp.png" alt="rewind">
+        <div class="divButton">
+            <button class="button">
+                <img src="icons/outline_fast_rewind_black_48dp.png" alt="rewind">
             </button>
-            <button style="background-color:#303030;border-color: transparent;border-bottom-color:#ffe066 ;border-radius:40px">
-                <img src="round_pause_circle_outline_black_48dp.png" alt="play">
+            <button class="button">
+                <img src="icons/round_pause_circle_outline_black_48dp.png" alt="play">
             </button>
-            <button style="background-color:#303030; border-color: transparent;border-bottom-color:#ffe066 ;border-radius:40px">
-                <img src="outline_fast_forward_black_48dp.png" alt="forward">
+            <button class="button">
+                <img src="icons/outline_fast_forward_black_48dp.png" alt="forward">
             </button>
         </div>
     </div>
